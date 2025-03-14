@@ -32,8 +32,6 @@ datasources:
     basicAuthUser:
     withCredentials:
     isDefault: false
-  - name: API
-    url: $API_URL
   - name: Tempo
     type: tempo
     access: proxy
