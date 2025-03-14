@@ -3,8 +3,9 @@ global:
 
 scrape_configs:
   - job_name: 'api'
+    scheme: http
     static_configs:
-      - targets: ['api']
+      - targets: ['api.railway.internal']
 
   # - job_name: 'example_api'
   #   scheme: http
